@@ -20,6 +20,11 @@ h1 {
     font-size: 15px;
 }
 
+/* Cards in player panel */
+.main-nowPlayingView-section {
+    background-color: var(--spice-card);
+}
+
 .main-type-finale {
     line-height: 17px;
 }
@@ -144,6 +149,11 @@ h1 {
     overflow: hidden !important;
 }
 
+/* Marketplace card backgrounds */
+.main-card-card {
+    background-color: var(--spicetify-card);
+}
+
 /* Ad title */
 .desktoproutes-homepage-takeover-ad-hptoNativeOriginal-header {
     font-weight: 700 !important;
@@ -214,7 +224,7 @@ highlights selected song contains multi-digit song numbers */
 
 /* Menu hidden under the button with account name - font size and family unification */
 .ellipsis-one-line {
-    font-family: Montserrat;
+    font-family: Montserrat, ui-rounded;
 }
 
 .ellipsis-one-line.main-type-mesto {
