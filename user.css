@@ -58,6 +58,11 @@ h1 {
     color: var(--spice-subtext);
 }
 
+.main-playPauseButton-button[disabled] {
+    background-color: unset;
+    color: rgba(var(--spice-rgb-selected-row),.3);
+}
+
 .main-playPauseButton-button svg {
     height: 28px;
     width: 28px;
