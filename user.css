@@ -20,13 +20,17 @@ h1 {
     font-size: 15px;
 }
 
+.main-type-finale {
+    line-height: 17px;
+}
+
 /* Cards in player panel */
 .main-nowPlayingView-section {
     background-color: var(--spice-card);
 }
 
-.main-type-finale {
-    line-height: 17px;
+.main-nowPlayingView-aboutArtistV2Button {
+    background-color: var(--spice-card);
 }
 
 /* Icons */
@@ -103,6 +107,10 @@ h1 {
     background-color: #3a3d42 !important;
 }
 
+.main-topBar-button {
+    background-color: var(--spice-sidebar)
+}
+
 /* Playing icon */
 .main-trackList-playingIcon {
     filter: saturate(0%);
@@ -130,6 +138,7 @@ h1 {
 
 /* Search box */
 .x-searchInput-searchInputInput {
+    background-color: var(--spice-sidebar) !important;
     font-size: 18px;
 }
 
@@ -151,7 +160,21 @@ h1 {
 
 /* Marketplace card backgrounds */
 .main-card-card {
-    background-color: var(--spicetify-card);
+    background-color: var(--spice-card);
+}
+
+/* Marketplace top buttons */
+.marketplace-tabBar-active {
+    background-color: var(--spice-sidebar);
+}
+
+/* Spicetify popups */
+.GenericModal {
+    background-color: unset;
+}
+
+.main-embedWidgetGenerator-container {
+    background-color: var(--spice-card);
 }
 
 /* Ad title */
