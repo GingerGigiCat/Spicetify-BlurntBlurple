@@ -104,7 +104,19 @@ h1 {
 
 /* Top bar */
 .main-topBar-background {
-    background-color: #3a3d42 !important;
+    background-color: var(--spice-main) !important;
+}
+
+.main-topBar-overlay {
+    background-color: rgba(var(--spice-rgb-shadow),.2);
+}
+
+.main-home-filterChipsSection {
+    background-color: var(--spice-main) !important;
+}
+
+.main-home-filterChipsSection.fIvMht6B9HdROywMNJZ4:after {
+    background-color: rgba(var(--spice-rgb-shadow),.3);
 }
 
 .main-topBar-button {
@@ -142,6 +154,11 @@ h1 {
     font-size: 18px;
 }
 
+/* Search top result box */
+.mXNT9H2GU7lDW4cGx0q1 {
+    background-color: var(--spice-card);
+}
+
 /* Aritsts names */
 .main-type-mesto {
     font-size: 16px;
@@ -173,8 +190,8 @@ h1 {
     background-color: unset;
 }
 
-.main-embedWidgetGenerator-container {
-    background-color: var(--spice-card);
+.GenericModal>* {
+    background-color: var(--spice-card) !important;
 }
 
 /* Ad title */
@@ -259,3 +276,8 @@ highlights selected song contains multi-digit song numbers */
     min-height: 325px;
     height: 15vh;
 }
+
+
+/* SNIPPETS */
+/* Remove top gradient */
+.main-entityHeader-backgroundColor { display: none !important; } .main-actionBarBackground-background { display: none !important; } .main-home-homeHeader { display: none !important; }
